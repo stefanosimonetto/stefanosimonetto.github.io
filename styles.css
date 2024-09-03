@@ -42,3 +42,40 @@ h1, h2 {
     color: #333;
 }
 
+/* About Section Styles */
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-container {
+    position: relative;
+    display: inline-block;
+}
+
+.photo-background {
+    background-image: url('image.png'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    width: 200px;  /* Adjust dimensions as needed */
+    height: 200px; /* Adjust dimensions as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
