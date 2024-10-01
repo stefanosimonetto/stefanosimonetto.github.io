@@ -90,12 +90,6 @@ section p {
     margin-bottom: 20px;
 }
 
-.photo-background {
-    background-color: #004999;
-    padding: 15px;
-    border-radius: 50%;
-    display: inline-block;
-}
 
 .profile-photo {
     border-radius: 50%;
@@ -121,37 +115,6 @@ section p {
 }
 
 #publications ul li a:hover {
-    color: #004999;
-}
-
-/* Contact Section */
-#contact-button {
-    background-color: #0066cc;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1.1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#contact-button:hover {
-    background-color: #004999;
-}
-
-#contact-info {
-    font-size: 1.1em;
-    margin-top: 20px;
-    color: #333;
-}
-
-#contact-info a {
-    color: #0066cc;
-    text-decoration: underline;
-}
-
-#contact-info a:hover {
     color: #004999;
 }
 
